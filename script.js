@@ -5,7 +5,7 @@ let quoteAuthor = document.querySelector('.quote-author')
 let soundBtn = document.querySelector('.sound')
 let copyBtn = document.querySelector('.copy')
 let twitterBtn = document.querySelector('.twitter')
-
+let
 async function randomQuote() {
   quoteBtn.innerText = 'loading..'
   const response = await fetch('https://api.quotable.io/random')
