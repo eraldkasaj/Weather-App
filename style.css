@@ -1,0 +1,38 @@
+.card-weather{
+    background-color: aqua;
+    width: 350px;
+    height:500px;
+    margin-left: 200px;
+    margin-top: 30px;
+    border-style: solid;
+    border-radius: 20px;
+}
+.search{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.search>input{
+    margin-left: 50px;
+}
+.search>button{
+    margin-left: 20px;
+}
+.weather-icon{
+    margin-left:120px;
+    margin-top: 50px;
+}
+.weather h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+.weather h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+.details{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 70px;
+    margin-top: 30px;
+}
