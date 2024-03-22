@@ -1,3 +1,4 @@
+
 .card-weather{
     background-color: aqua;
     width: 350px;
@@ -36,3 +37,78 @@
     padding-left: 70px;
     margin-top: 30px;
 }
+=======
+.quote{
+background-color: rgb(200, 195, 195);
+width:500px;
+height:200px;
+max-width: 500px;
+}
+
+.quote-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.quote-text{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.quote-author{
+    text-align: end;
+    margin-right: 20px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.features{
+border-top-style:ridge;
+border-width: 2px;
+width:500px;
+height:100px;
+background-color: rgb(200, 195, 195);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+ul>li {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    font-size: 20px;
+    color:rgb(67, 67, 185);
+    
+}
+ul>li:hover {
+    border-style: solid;
+    border-radius: 10px;
+    border-color:rgb(67, 67, 185);
+    font-size: 20px;
+    color:rgb(67, 67, 185);
+    background-color: black;
+}
+
+.quote-btn{
+    margin-left: 200px;
+    background-color: rgb(110, 110, 187);
+    font-size: 17px;
+    border-style:solid;
+    border-radius: 5px;
+    color: white;
+}
+.quote-btn:hover{
+    margin-left: 200px;
+    background-color: rgb(110, 110, 187);
+    font-size: 17px;
+    border-style:solid;
+    border-radius: 5px;
+    border-color:white;
+    color: black;
+
+}
+

@@ -1,3 +1,4 @@
+
 const apiKey = "adc2740c7ed768a9e88a7411361bd4c3"
 const apiUrl="https://api.openweathermap.org/data/2.5/weather?&units=metric&q=london"
 
@@ -14,3 +15,5 @@ async function checkWeather() {
 }
 
 checkWeather()
+
+
