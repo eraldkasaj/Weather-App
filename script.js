@@ -16,4 +16,7 @@ async function checkWeather() {
 
 checkWeather()
 
+checkWeather()
+checkWeather()
+checkWeather(b)
 
