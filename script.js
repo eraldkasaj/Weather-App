@@ -10,14 +10,10 @@ const weatherImg = document.querySelector('.weather-icon')
 async function checkWeather(city) {
     const response = await fetch(apiUrl + city +`&appid=${apiKey}`)
 
-    if(response.status == 404) {
+    if(response.status == 404 || response.status == 400) {
         document.querySelector('.error').style.display='block'
         document.querySelector('.weather').style.display='none'
-    }/*else if(response.status == 400){
-        document.querySelector('.error').style.display='block'
-        document.querySelector('.error').innerHTML='put a city name'
-    }*/
-    else {
+    }else {
         const data = await response.json()
         console.log(data)
     
@@ -31,7 +27,7 @@ async function checkWeather(city) {
         }else if(data.weather[0].main == 'Clouds') {
             weatherImg.src ="/images/clouds.png"
         }else if(data.weather[0].main == 'Rain') {
-            weatherImg.src ="/images/rain.png"
+            weatherImg.src ="/images/rain.webp"
         }else if(data.weather[0].main == 'Drizzle') {
             weatherImg.src ="/images/drizzle.png"
         }

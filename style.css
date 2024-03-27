@@ -1,7 +1,7 @@
 
 .card-weather{
-    background-color: aqua;
-    width: 350px;
+    background: radial-gradient(circle, rgba(91,101,206,1) 15%, rgba(135,78,182,1) 83%);
+    width: 300px;
     min-height:110px;
     margin-left: 200px;
     margin-top: 30px;
@@ -9,17 +9,28 @@
     border-radius: 20px;
 }
 .search{
-    margin-top: 20px;
-    margin-left: 10px;
+    margin: 20px 0 0 0px; 
 }
 .search>input{
-    margin-left: 50px;
+    margin-left: 30px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
 }
 .search>button{
     margin-left: 20px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+}
+.search>button:active{
+    margin-left: 20px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgb(21, 12, 12);
 }
 .weather-icon{
-    margin-left:120px;
+    margin-left:90px;
     margin-top: 50px;
 }
 .weather h1 {
@@ -34,83 +45,21 @@
     display:flex;
     align-items: center;
     justify-content:space-between;
-    padding-left: 70px;
+    padding-left: 0px;
     margin-top: 30px;
-}
-.quote{
-background-color: rgb(200, 195, 195);
-width:500px;
-height:200px;
-max-width: 500px;
-}
-
-.quote-title{
-    text-align: center;
+    margin-bottom: 20px;
     font-weight: bold;
-    font-size: 20px;
 }
-.quote-text{
-    text-align: center;
-    margin-top: 30px;
-    font-size: 20px;
-}
-.quote-author{
-    text-align: end;
-    margin-right: 20px;
-    margin-top: 40px;
-    font-weight: bold;
-    font-size: 20px;
-}
-.features{
-border-top-style:ridge;
-border-width: 2px;
-width:500px;
-height:100px;
-background-color: rgb(200, 195, 195);
-}
-
-ul {
-    list-style-type: none;
+.col {
     display: flex;
-    gap: 20px;
-    font-size: 20px;
-}
-ul>li {
-    border-style: solid;
-    border-radius: 10px;
-    border-color: black;
-    font-size: 20px;
-    color:rgb(67, 67, 185);
-    
-}
-ul>li:hover {
-    border-style: solid;
-    border-radius: 10px;
-    border-color:rgb(67, 67, 185);
-    font-size: 20px;
-    color:rgb(67, 67, 185);
-    background-color: black;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    line-height: 10px;
+    font-size: 14px;
+    font-weight:bold;
 }
 
-.quote-btn{
-    margin-left: 200px;
-    background-color: rgb(110, 110, 187);
-    font-size: 17px;
-    border-style:solid;
-    border-radius: 5px;
-    color: white;
-}
-.quote-btn:hover{
-    margin-left: 200px;
-    background-color: rgb(110, 110, 187);
-    font-size: 17px;
-    border-style:solid;
-    border-radius: 5px;
-    border-color:white;
-    color: black;
-
-}
 .error,.weather{
     display:none
 }
-
