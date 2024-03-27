@@ -2,7 +2,7 @@
 .card-weather{
     background-color: aqua;
     width: 350px;
-    min-height:150px;
+    min-height:110px;
     margin-left: 200px;
     margin-top: 30px;
     border-style: solid;
@@ -109,5 +109,8 @@ ul>li:hover {
     border-color:white;
     color: black;
 
+}
+.error,.weather{
+    display:none
 }
 
